@@ -4,8 +4,8 @@
 /**
  * main - A program that prints a line to the sandard error
  *
- * Return: Always 0 (Success)
- */
+ * Return 1 (Success)
+ * */
 int main(void)
 {
 fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
