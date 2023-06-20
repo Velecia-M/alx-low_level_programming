@@ -20,6 +20,6 @@ _putchar(alph);
 alph++;
 }
 _putchar('\n');
-x++
+x++;
 }
 }
