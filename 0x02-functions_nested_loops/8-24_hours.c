@@ -20,7 +20,7 @@ _putchar((x % 10) + '0');
 _putchar(':');
 _putchar((y / 10) + '0');
 _putchar((y % 10) + '0');
-putchar('\n');
+_putchar('\n');
 y++;
 }
 x++;
