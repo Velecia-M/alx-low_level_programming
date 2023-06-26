@@ -15,7 +15,7 @@ len = 0;
 a = 0;
 num = 0;
 
-while (s[n] != '\0')
+while (s[len] != '\0')
 len++;
 while (x < len && a == 0)
 {
