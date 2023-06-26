@@ -21,5 +21,5 @@ for (y = x; y > 0; y--)
 _putchar(*s);
 s--;
 }
-_putchar('\n')
+_putchar('\n');
 }
