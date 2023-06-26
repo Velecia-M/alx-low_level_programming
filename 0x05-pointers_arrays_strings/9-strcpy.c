@@ -21,6 +21,6 @@ for ( ; y < x; y++)
 {
 dest[y] = src[y];
 }
-dest[x] = "\0";
+dest[x] = '\0';
 return (dest);
 }
