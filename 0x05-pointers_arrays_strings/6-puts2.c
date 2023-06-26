@@ -1,30 +1,31 @@
 #include "main.h"
 
 /**
- * puts2 - prints every other character of a string, starting with the first character, followed by a new line
+ * puts2 - prints every other character of a string
+ * starting with the first character
+ * followed by a new line
  * @str: string
  * Return: print
  */
 void puts2(char *str)
 {
-int x, y;
-x = 0;
-y = 0;
-char *z = str;
+int x = 0;
+int b = 0;
+char *y = str;
 int a;
 
-while (*z != '\0')
+while (*y != '\0')
 {
-z++;
+y++;
 x++;
 }
-y = x - 1;
-for (a = 0; a <= y; a++)
+b = x - 1;
+for (a = 0; a <= b; a++)
 {
 if (a % 2 == 0)
 {
 _putchar(str[a]);
 }
 }
-_putchar('\0');
+_putchar('\n');
 }
