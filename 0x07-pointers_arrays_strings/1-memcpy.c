@@ -13,7 +13,7 @@ int x, y;
 
 x = 0;
 y = n;
-for (; x < n; x++)
+for (; x < y; x++)
 {
 dest[x] = src[x];
 n--;
