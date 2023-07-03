@@ -15,7 +15,7 @@ char *y = needle;
 
 while (*x == *y && *y != '\0')
 {
-x++:
+x++;
 y++;
 }
 if (*y == '\0')
