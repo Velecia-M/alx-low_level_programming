@@ -13,7 +13,7 @@ int x = 0;
 for (; x >= '\0'; x++)
 {
 if (s[x] == c)
-return (&s[x])
+return (&s[x]);
 }
 return (0);
 }
