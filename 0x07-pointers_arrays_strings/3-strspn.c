@@ -13,7 +13,7 @@ int y;
 
 while (*s)
 {
-y = 0; accept[y]; y++)
+for (y = 0; accept[y]; y++)
 {
 if (*s == accept[y])
 {
