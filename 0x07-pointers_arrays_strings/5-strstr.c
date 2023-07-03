@@ -13,7 +13,7 @@ for (; *haystack != '\0'; haystack++)
 char *x = haystack;
 char *y = needle;
 
-while (*x == *y && *y != '\0'')
+while (*x == *y && *y != '\0')
 {
 x++:
 y++;
