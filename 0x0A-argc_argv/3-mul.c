@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _atoi - conberts a string to an integer
+ * _atoi - converts a string to an integer
  * @s: string to be converted
  * Return: int converted
  */
@@ -57,7 +57,7 @@ return (1);
 }
 num1 = _atoi(argv[1]);
 num2 = _atoi(argv[2]);
-prod = num1 * num2;
+prod = num1 *num2;
 printf("%d\n", prod);
 return (0);
 }
