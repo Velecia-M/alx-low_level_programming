@@ -24,7 +24,7 @@ dup = malloc(sizeof(char) * (x + 1));
 if (dup == NULL)
 return (NULL);
 
-for (y = 0; str[x]; y++)
+for (y = 0; str[y]; y++)
 dup[y] = str[y];
 return (dup);
 }
