@@ -20,7 +20,7 @@ x = 0;
 while (str[x] != '\0')
 x++;
 
-dup = malloc(sizeof(char) * (x + 1);
+dup = malloc(sizeof(char) * (x + 1));
 if (dup == NULL)
 return (NULL);
 
