@@ -22,7 +22,7 @@ return (NULL);
 
 for (x = 0; x < height; x++)
 {
-algrid[x] = malloc(sizeof(int *) * width);
+algrid[x] = malloc(sizeof(int) * width);
 if (algrid[x] == NULL)
 {
 for (; x >= 0; x--)
