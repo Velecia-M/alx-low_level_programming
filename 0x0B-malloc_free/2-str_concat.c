@@ -15,7 +15,7 @@ int x, y;
 if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
-s2 = "";;
+s2 = "";
 
 x = y = 0;
 while (s1[x] != '\0')
