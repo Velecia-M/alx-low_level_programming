@@ -28,7 +28,7 @@ while (x < len1)
 s[x] = s1[x];
 x++;
 }
-while (n < len1 && (len1 + n))
+while (n < len2 && x < (len1 + n))
 s[x++] = s2[y++];
 while (n >= len2 && x < (len1 + len2))
 s[x++] = s2[y++];
