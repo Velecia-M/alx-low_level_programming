@@ -23,7 +23,7 @@ if (bytes < 0)
 printf("Error\n");
 exit(2);
 }
-y = (char *) main;
+y = (char *)main;
 for (x = 0; x < bytes; x++)
 {
 if (x == bytes - 1)
