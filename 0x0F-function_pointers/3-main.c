@@ -1,8 +1,7 @@
 #include "function_pointers.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <3-calc.h>
-
+#include "3-calc.h"
 /**
  * main - prints the result of simple operations
  * @argc: number of arguments supplied to the program
@@ -33,6 +32,6 @@ if ((*y == '/' && x2 == 0) || (*y == '%' && x2 == 0))
 printf("Error\n");
 exit(100);
 }
-printf("%d\n", get_op_func(y)(x1, x2);
+printf("%d\n", get_op_func(y)(x1, x2));
 return (0);
 }
