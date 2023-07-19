@@ -13,7 +13,8 @@ op_t ops[] = {{"+", op_add},
 {"*", op_mul},
 {"/", op_div},
 {"%", op_mod},
-{NULL, NULL}, };
+{NULL, NULL},
+};
 
 int x = 0;
 while (ops[x].op != NULL && *(ops[x].op) != *s)
