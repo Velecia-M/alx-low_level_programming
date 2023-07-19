@@ -10,8 +10,7 @@
 int main(int argc, char *argv[])
 {
 int bytes, x;
-char *y
-
+char *y;
 if (argc != 2)
 {
 printf("Error\n");
@@ -26,6 +25,7 @@ exit(2);
 }
 y = (char *) main;
 for (x = 0; x < bytes; x++)
+{
 if (x == bytes - 1)
 {
 printf("%02hhx\n", y[x]);
