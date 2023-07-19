@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-int bytes, x;
+int bytes, i;
 char *y;
 if (argc != 2)
 {
@@ -24,14 +24,14 @@ printf("Error\n");
 exit(2);
 }
 y = (char *)main;
-for (x = 0; x < bytes; x++)
+for (i = 0; i < bytes; i++)
 {
-if (x == bytes - 1)
+if (i == bytes - 1)
 {
-printf("%02hhx\n", y[x]);
+printf("%02hhx\n", y[i]);
 break;
 }
-printf("%02hhx\n", y[x]);
+printf("%02hhx ", y[i]);
 }
 return (0);
 }
