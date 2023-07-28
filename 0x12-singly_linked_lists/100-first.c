@@ -1,6 +1,6 @@
-#include <string.h>
+#include <stdio.h>
 
-void first(void) __attribute__ ((constructors));
+void first(void) __attribute__ ((constructor));
 
 /**
  * first - function that prints You're beat! and yet,
