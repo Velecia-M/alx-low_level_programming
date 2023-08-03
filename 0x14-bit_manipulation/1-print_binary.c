@@ -10,7 +10,7 @@ int x;
 int y = 0;
 unsigned long int z;
 
-for (x = 63; x >= 0; x++)
+for (x = 63; x >= 0; x--)
 {
 z = n >> x;
 
