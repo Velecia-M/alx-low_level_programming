@@ -23,5 +23,5 @@ a = read(y, x, letters);
 z = write(STDOUT_FILENO, x, a);
 free(x);
 close(y);
-return(z);
+return (z);
 }
