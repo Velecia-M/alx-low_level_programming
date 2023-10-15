@@ -1,27 +1,48 @@
 #include "main.h"
 
 /**
- * print_binary - returns the value of a bit at a given index
- * @n: printed number in binary
+ * _pow - Function that calculates base to the power of an exponent
+ * @base: number that will be raised to said exponent
+ * @power: number to raise the base to
+ * Return: base raised to the power of exponent
+ */
+
+unsigned long int _pow(unsigned int base, unsigned int power)
+{
+unsigned int index;
+unsigned long int val_power;
+
+val_power = 1;
+for (index = 1; index <= power; index++)
+val_power = val_power * base;
+return (val_power);
+}
+
+/**
+ * print_binary - A function that prints a number in binary
+ * @n: value to be printed
+ * Return: void
  */
 void print_binary(unsigned long int n)
 {
-int x;
-int y = 0;
-unsigned long int z;
+unsigned long int compare;
+unsigned long int val_div;
+char flag = 0;
 
-for (x = 63; x >= 0; x--)
-{
-z = n >> x;
+val_div = _pow(2, sizeof(unsigned long int) * 8 - 1);
 
-if (z & 1)
+while (val_div != 0)
 {
+compare = n & val_div;
+if (compare == val_div)
+{
+flag = 1;
 _putchar('1');
-y++;
 }
-else if (y)
+else if (flag == 1 || val_div == 1)
+{
 _putchar('0');
 }
-if (!y)
-_putchar('0');
+val_div >>= 1;
+}
 }
