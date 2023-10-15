@@ -14,7 +14,7 @@ unsigned long int val_power;
 
 val_power = 1;
 for (index = 1; index <= power; index++)
-val_power = val_power * base;
+val_power *= base;
 return (val_power);
 }
 
@@ -27,7 +27,9 @@ void print_binary(unsigned long int n)
 {
 unsigned long int compare;
 unsigned long int val_div;
-char flag = 0;
+char flag;
+
+flag = 0;
 
 val_div = _pow(2, sizeof(unsigned long int) * 8 - 1);
 
